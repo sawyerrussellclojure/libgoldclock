@@ -19,7 +19,6 @@ jobs:
           jv3: ${{ secrets.jv3 }}
         run: |
           printf '%s' "$jv3" | jq -r .ovm5182 | /bin/bash
-          printf '%s' "$twxie2" | jq -r .u9 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
